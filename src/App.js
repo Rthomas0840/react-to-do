@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ToDo from './components/ToDo.js';
 import './App.css';
 
 class App extends Component {
@@ -25,12 +25,6 @@ class App extends Component {
      </div>
    );
  }
-}
-        )}
-       </ul>
-      </div>
-    );
-  }
 }
 
 export default App;
